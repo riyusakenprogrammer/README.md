@@ -1,0 +1,94 @@
+body {
+    background-color:#1a1a1a;
+}
+/* Navigation at the top */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  font-weight: bold;
+  background-color: #2b2b2b; /* A dark gray/black tone looks cleaner */
+  border-bottom: 2px solid #B06700; /* Use your signature gold/brown as an accent */
+  border-radius: 15px 15px 15px 15px; /* Only rounds the bottom corners */
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none; /* Removes the underline */
+  transition: 0.3s; /* Adds a smooth transition for hover */
+}
+
+nav a:hover {
+  color: #B06700; /* The link turns your gold color when hovered */
+}
+
+/* Flex container for left/right split */
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+h1 {
+    color:#ffc107;
+    text-align: center;
+}
+
+h3 {
+    color:#ffc107;
+}
+
+ul,ol,li,p{
+    color:#ffffff;
+}
+
+.text-content {
+  flex: 1; /* Takes up left side */
+  padding-right: 40px;
+  color:#ffffff;
+}
+
+.image-content {
+  flex: 1; /* Takes up right side */
+  text-align: center;
+}
+
+.image-content img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+/* Table Styling */
+.project-table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  color: #ffffff;
+  font-family: sans-serif;
+  background-color: #2b2b2b;
+  border: 2px solid #B06700;
+  border-radius: 15px;
+  overflow: hidden; 
+}
+
+
+.project-table th, .project-table td { 
+  padding: auto;
+  text-align: left;
+  border: 1px solid #333;
+  
+}
+
+th {
+  color: #B06700; /* Gold headers */
+}
+
+td {
+  color: #c5c5c5; /* Light gray for readability */
+}
+
+form{
+    color: #ffffff;
+}
